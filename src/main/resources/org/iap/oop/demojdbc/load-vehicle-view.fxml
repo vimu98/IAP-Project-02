@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.iap.oop.demojdbc.VehicleLoadController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="210.0" layoutY="14.0" text="Load All Vehcle" textFill="#ec0909">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <TableView fx:id="tblVehicle" layoutX="21.0" layoutY="74.0" prefHeight="310.0" prefWidth="556.0">
+              <columns>
+                <TableColumn prefWidth="75.0" text="id" />
+                <TableColumn prefWidth="132.0" text="brand" />
+                  <TableColumn prefWidth="139.20001220703125" text="model" />
+                  <TableColumn prefWidth="86.39996337890625" text="gears" />
+                  <TableColumn minWidth="0.0" prefWidth="126.4000244140625" text="price" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

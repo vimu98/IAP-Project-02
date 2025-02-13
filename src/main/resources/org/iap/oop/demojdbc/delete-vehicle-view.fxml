@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.iap.oop.demojdbc.VehicleDeleteController">
+   <children>
+      <Label layoutX="216.0" layoutY="49.0" text="Vehicle Delete" textFill="#dc0707">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtId" layoutX="186.0" layoutY="163.0" prefHeight="26.0" prefWidth="228.0" promptText="Enter Id" />
+      <Button layoutX="246.0" layoutY="247.0" mnemonicParsing="false" onAction="#deleteBtn" style="-fx-background-color: green;" text="Delete Vehicle" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="270.0" layoutY="294.0" mnemonicParsing="false" onAction="#cancalBtn" style="-fx-background-color: red;" text="Cancal" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
