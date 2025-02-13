@@ -3,4 +3,7 @@ public class SpareParts {
     public void addPart(){
 
     }
+    public void displayPart(){
+
+    }
 }
