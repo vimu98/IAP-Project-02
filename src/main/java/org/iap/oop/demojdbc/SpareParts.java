@@ -6,4 +6,7 @@ public class SpareParts {
     public void displayPart(){
 
     }
+    public void deletePart(){
+
+    }
 }
