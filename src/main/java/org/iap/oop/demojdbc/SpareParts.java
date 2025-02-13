@@ -1,5 +1,6 @@
 package org.iap.oop.demojdbc;
+public class SpareParts {
+    public void addPart(){
 
-/*Auther: Thimira Vimukthi
-    Place: IICT's lab*/public class SpareParts {
+    }
 }
